@@ -5,7 +5,6 @@ print("Hello ji")
 """
 Thankuuuu       multi line comment
 """
-
 joke=pyjokes.get_joke()
 print(joke)
 
