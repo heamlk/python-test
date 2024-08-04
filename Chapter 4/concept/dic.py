@@ -1,0 +1,20 @@
+name={
+    0:"Hello",
+    1:23,
+    3:'Bye',
+    'Hello':43,
+    "List":[2,3,4],
+}
+print(name.get('Hello'))
+print(name['Hello'])
+print(name)
+print(name.items())
+print(name.keys())
+print(name.values())
+name.update({3:45,4:44})
+print(name)
+list=[2,3,4,"hello"]
+dic=dict.fromkeys(list,0)
+print(dic)
+name.pop('Helloo',"Nope")
+print(name)
