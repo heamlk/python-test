@@ -2,9 +2,7 @@ comment=input()
 
 
 #method_1
-if(comment.find("buy now")>=0):
-    print("It's a spam")
-elif(comment.find("subscribe")>=0):
+if(comment.find("buy now")>=0 or comment.find("subscribe")>=0):
     print("It's a spam")
 else:
     print("Yoo its good")
