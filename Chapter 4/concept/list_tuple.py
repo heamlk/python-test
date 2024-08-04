@@ -1,0 +1,22 @@
+l2=[34,56,12.5,"Hello","Yooo",True,'Hiiii',34,34]
+print(l2)
+print(l2.append("Kalpit"))
+print(l2)
+print(l2.insert(2,"Here"))
+print(l2)
+print(l2.reverse())
+print(l2)
+l1=[2,1,4,]
+print(l1.sort())
+print(l1)
+print(l2.pop(3))
+print(l2)
+print(l2.remove(True))
+print(l2)
+print(l2.count(34))
+print("Hello" in l2)
+a,b,c = l1
+print(a,b,c)
+tuple=(24,"Kalpit")
+print(tuple)
+print(tuple.index(24))
